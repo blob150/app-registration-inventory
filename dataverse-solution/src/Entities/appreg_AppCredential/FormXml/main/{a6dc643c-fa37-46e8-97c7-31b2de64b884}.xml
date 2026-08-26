@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a6dc643c-fa37-46e8-97c7-31b2de64b884}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{474190dd-0f05-4b9b-bfa7-234b27fc3439}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4606132e-6550-4688-b637-5a3275f40f47}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{80e17713-3cdc-4dd0-ab6e-7e919453afa6}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="appreg_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5adfca20-167e-4496-a967-43794e64c9d4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c2ecd27c-de9b-452d-b304-a1e9890426a1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="App Registration" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_appregistrationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="appreg_appregistrationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34051637-d4c5-48cf-b9a2-57fd48ee3d6c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Certificate CN" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_certcn" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="appreg_certcn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4399d67-d4c4-479b-82ab-f3cc49eb16da}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Credential Type" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_credtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="appreg_credtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{827e25b1-2c7e-4b63-8ce6-e4ed77fd12c8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Credential / Key ID" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_keyid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="appreg_keyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9f76f7bc-a079-442a-a9c8-ab3a1c6c5957}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Days To Expiry" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_daystoexpiry" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="appreg_daystoexpiry" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d7353a6-1a8f-4961-85b0-d2e8e1d2f9d4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Expiration Date" languagecode="1033" />
+                        </labels>
+                        <control id="appreg_enddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="appreg_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{79a7b07b-2455-4bed-a1fb-d41062243c06}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bf611b06-c581-4803-b1a7-56699844abe8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{235d23a8-3b59-4ea8-a7bb-2a5e2f86997f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{df03cb69-7f32-4572-a6be-4175144561fe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7809876d-d554-46d7-8861-66239692c8e5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{682a0248-8120-4233-9abe-31d94bc7b20f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{06ad8ba5-9ba2-4e53-90c7-e2d03c855774}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{160c7c59-92f9-46e4-a569-0bc97dd09adc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

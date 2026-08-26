@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9f73ffbe-df9f-4b68-90ed-cd8ca9673153}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="appreg_name" select="1" icon="1" preview="1">
+        <row name="result" id="appreg_apppermissionid">
+          <cell name="appreg_name" width="250" />
+          <cell name="appreg_appregistrationid" width="247" />
+          <cell name="appreg_isgranted" width="154" />
+          <cell name="appreg_permissiontype" width="134" />
+          <cell name="appreg_resourcename" width="128" />
+          <cell name="appreg_resourceappid" width="138" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="appreg_apppermission">
+          <attribute name="appreg_apppermissionid" />
+          <attribute name="appreg_name" />
+          <attribute name="createdon" />
+          <order attribute="appreg_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="appreg_appregistrationid" />
+          <attribute name="appreg_isgranted" />
+          <attribute name="appreg_permissiontype" />
+          <attribute name="appreg_resourcename" />
+          <attribute name="appreg_resourceappid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active App Permissions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

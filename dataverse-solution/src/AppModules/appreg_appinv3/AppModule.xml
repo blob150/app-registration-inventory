@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>appreg_appinv3</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>15194005-1c9f-e811-a966-000d3a1c5ec5</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="appreg_appcredential" />
+    <AppModuleComponent type="1" schemaName="appreg_appowner" />
+    <AppModuleComponent type="1" schemaName="appreg_apppermission" />
+    <AppModuleComponent type="1" schemaName="appreg_appregistration" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+    <AppModuleComponent type="62" schemaName="appreg_appinv3" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="App Registration Inventory" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="View and manage Entra app registration inventory synced from Microsoft Graph." languagecode="1033" />
+  </Descriptions>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

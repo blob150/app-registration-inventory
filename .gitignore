@@ -1,0 +1,28 @@
+# Dataverse solution build output (unpacked src is source-controlled; exported zips are release artifacts)
+dataverse-solution/bin/
+dataverse-solution/obj/
+dataverse-solution/*.zip
+
+# releases/*.zip is intentionally committed - the zip IS the shareable artifact
+
+# Secrets / tokens (should never be present, but just in case)
+*.token
+*.pfx
+*.key
+*.pem
+.env
+.env.*
+secrets/
+
+# Logs / scratch
+*.log
+tmp/
+scratch/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~

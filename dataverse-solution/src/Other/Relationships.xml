@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="appreg_appregistration_appreg_appcredential" />
+  <EntityRelationship Name="appreg_appregistration_appreg_appowner" />
+  <EntityRelationship Name="appreg_appregistration_appreg_apppermission" />
+  <EntityRelationship Name="business_unit_appreg_appcredential" />
+  <EntityRelationship Name="business_unit_appreg_appowner" />
+  <EntityRelationship Name="business_unit_appreg_apppermission" />
+  <EntityRelationship Name="business_unit_appreg_appregistration" />
+  <EntityRelationship Name="business_unit_appreg_syncstate" />
+  <EntityRelationship Name="lk_appreg_appcredential_createdby" />
+  <EntityRelationship Name="lk_appreg_appcredential_modifiedby" />
+  <EntityRelationship Name="lk_appreg_appowner_createdby" />
+  <EntityRelationship Name="lk_appreg_appowner_modifiedby" />
+  <EntityRelationship Name="lk_appreg_apppermission_createdby" />
+  <EntityRelationship Name="lk_appreg_apppermission_modifiedby" />
+  <EntityRelationship Name="lk_appreg_appregistration_createdby" />
+  <EntityRelationship Name="lk_appreg_appregistration_modifiedby" />
+  <EntityRelationship Name="lk_appreg_syncstate_createdby" />
+  <EntityRelationship Name="lk_appreg_syncstate_modifiedby" />
+  <EntityRelationship Name="owner_appreg_appcredential" />
+  <EntityRelationship Name="owner_appreg_appowner" />
+  <EntityRelationship Name="owner_appreg_apppermission" />
+  <EntityRelationship Name="owner_appreg_appregistration" />
+  <EntityRelationship Name="owner_appreg_syncstate" />
+  <EntityRelationship Name="team_appreg_appcredential" />
+  <EntityRelationship Name="team_appreg_appowner" />
+  <EntityRelationship Name="team_appreg_apppermission" />
+  <EntityRelationship Name="team_appreg_appregistration" />
+  <EntityRelationship Name="team_appreg_syncstate" />
+  <EntityRelationship Name="user_appreg_appcredential" />
+  <EntityRelationship Name="user_appreg_appowner" />
+  <EntityRelationship Name="user_appreg_apppermission" />
+  <EntityRelationship Name="user_appreg_appregistration" />
+  <EntityRelationship Name="user_appreg_syncstate" />
+</EntityRelationships>

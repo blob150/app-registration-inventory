@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9a67603d-aea5-4df4-a766-bdb3d7ff7bb8}</savedqueryid>
+    <layoutxml>
+      <grid name="appreg_appcredentials" jump="appreg_name" select="1" icon="1" preview="1">
+        <row name="appreg_appcredential" id="appreg_appcredentialid">
+          <cell name="appreg_name" width="300" />
+          <cell name="appreg_credtype" width="130" />
+          <cell name="appreg_keyid" width="151" />
+          <cell name="appreg_daystoexpiry" width="129" />
+          <cell name="appreg_enddate" width="130" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="appreg_appcredential">
+          <attribute name="appreg_appcredentialid" />
+          <attribute name="appreg_name" />
+          <attribute name="createdon" />
+          <order attribute="appreg_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="appreg_credtype" />
+          <attribute name="appreg_keyid" />
+          <attribute name="appreg_daystoexpiry" />
+          <attribute name="appreg_enddate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="App Credential Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

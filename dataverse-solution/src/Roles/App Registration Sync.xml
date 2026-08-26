@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{31e0ccf0-759d-f111-b8dc-7ced8d6e7bc5}" name="App Registration Sync" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <IsAutoAssigned>0</IsAutoAssigned>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendappreg_AppCredential" level="Global" />
+    <RolePrivilege name="prvAppendappreg_AppOwner" level="Global" />
+    <RolePrivilege name="prvAppendappreg_AppPermission" level="Global" />
+    <RolePrivilege name="prvAppendappreg_AppRegistration" level="Global" />
+    <RolePrivilege name="prvAppendappreg_SyncState" level="Global" />
+    <RolePrivilege name="prvAppendToappreg_AppCredential" level="Global" />
+    <RolePrivilege name="prvAppendToappreg_AppOwner" level="Global" />
+    <RolePrivilege name="prvAppendToappreg_AppPermission" level="Global" />
+    <RolePrivilege name="prvAppendToappreg_AppRegistration" level="Global" />
+    <RolePrivilege name="prvAppendToappreg_SyncState" level="Global" />
+    <RolePrivilege name="prvCreateappreg_AppCredential" level="Global" />
+    <RolePrivilege name="prvCreateappreg_AppOwner" level="Global" />
+    <RolePrivilege name="prvCreateappreg_AppPermission" level="Global" />
+    <RolePrivilege name="prvCreateappreg_AppRegistration" level="Global" />
+    <RolePrivilege name="prvCreateappreg_SyncState" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeleteappreg_AppCredential" level="Global" />
+    <RolePrivilege name="prvDeleteappreg_AppOwner" level="Global" />
+    <RolePrivilege name="prvDeleteappreg_AppPermission" level="Global" />
+    <RolePrivilege name="prvDeleteappreg_AppRegistration" level="Global" />
+    <RolePrivilege name="prvDeleteappreg_SyncState" level="Global" />
+    <RolePrivilege name="prvReadappreg_AppCredential" level="Global" />
+    <RolePrivilege name="prvReadappreg_AppOwner" level="Global" />
+    <RolePrivilege name="prvReadappreg_AppPermission" level="Global" />
+    <RolePrivilege name="prvReadappreg_AppRegistration" level="Global" />
+    <RolePrivilege name="prvReadappreg_SyncState" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvWriteappreg_AppCredential" level="Global" />
+    <RolePrivilege name="prvWriteappreg_AppOwner" level="Global" />
+    <RolePrivilege name="prvWriteappreg_AppPermission" level="Global" />
+    <RolePrivilege name="prvWriteappreg_AppRegistration" level="Global" />
+    <RolePrivilege name="prvWriteappreg_SyncState" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>
